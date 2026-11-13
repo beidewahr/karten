@@ -1,3 +1,4 @@
 [
-  {"datum": "2026-11-12", "bereich": "Tiere", "thema": "Meeresschildkröten", "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)", "schlecht": "Fast nur Weibchen in Florida (FAU)", "reel": "https://www.instagram.com/reel/DfpdAQekvmt/"}
+  {"datum": "2026-11-12", "bereich": "Tiere", "thema": "Meeresschildkröten", "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)", "schlecht": "Fast nur Weibchen in Florida (FAU)", "reel": "https://www.instagram.com/reel/DfpdAQekvmt/", "stimmen": 0, "anteil_gut": null},
+  {"datum": "2026-11-13", "bereich": "Natur & Umwelt", "thema": "Schweizer Seen", "gut": "Mehr Sauerstoff im Tiefenwasser dank Gewässerschutz (Eawag)", "schlecht": "Seen an der Oberfläche ~2 Grad wärmer, weniger Durchmischung (Eawag)", "stimmen_ab_zeile": 2}
 ]
