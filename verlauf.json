@@ -1,4 +1,37 @@
 [
-  {"datum": "2026-11-12", "bereich": "Tiere", "thema": "Meeresschildkröten", "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)", "schlecht": "Fast nur Weibchen in Florida (FAU)", "reel": "https://www.instagram.com/reel/DfpdAQekvmt/", "stimmen": 0, "anteil_gut": null},
-  {"datum": "2026-11-13", "bereich": "Natur & Umwelt", "thema": "Schweizer Seen", "gut": "Mehr Sauerstoff im Tiefenwasser dank Gewässerschutz (Eawag)", "schlecht": "Seen an der Oberfläche ~2 Grad wärmer, weniger Durchmischung (Eawag)", "stimmen_ab_zeile": 2}
+ {
+  "datum": "2026-11-12",
+  "bereich": "Tiere",
+  "thema": "Meeresschildkröten",
+  "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)",
+  "schlecht": "Fast nur Weibchen in Florida (FAU)",
+  "reel": "https://www.instagram.com/reel/DfpdAQekvmt/",
+  "stimmen": 0,
+  "anteil_gut": null
+ },
+ {
+  "datum": "2026-11-13",
+  "bereich": "Natur & Umwelt",
+  "thema": "Schweizer Seen",
+  "gut": "Mehr Sauerstoff im Tiefenwasser dank Gewässerschutz (Eawag)",
+  "schlecht": "Seen an der Oberfläche ~2 Grad wärmer, weniger Durchmischung (Eawag)",
+  "stimmen_ab_zeile": 2,
+  "stimmen": 2,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-14",
+  "bereich": "Gesundheit & Medizin",
+  "thema": "Tuberkulose",
+  "gut": "WHO-Region Europa: Tuberkulose-Neuerkrankungen pro 100 000 seit 2015 −42 % (WHO-Tuberkulosebericht 2026)",
+  "schlecht": "Weltweit ~2,2 Mio. von 10,6 Mio. Tuberkulose-Fällen 2025 nicht diagnostiziert/gemeldet (WHO, via Spektrum.de)",
+  "musik": {
+   "stil": 3,
+   "name": "03_inspiration_klavier",
+   "transpose": 2,
+   "tempo": 0.967,
+   "seed": 20261114
+  },
+  "stimmen_ab_zeile": 5
+ }
 ]
