@@ -33,5 +33,20 @@
    "seed": 20261114
   },
   "stimmen_ab_zeile": 5
+ },
+ {
+  "datum": "2026-11-14",
+  "lauf": "abend (Zusatzlauf, Probelauf Sound Collection)",
+  "bereich": "Wissenschaft & Weltraum",
+  "thema": "Weltraum",
+  "gut": "ESA Euclid DR1: über 900 Mio. Galaxien, Fläche 9500 Vollmonde, 14 % der geplanten Karte (ESA, 12.11.2026)",
+  "schlecht": "Weltraumschrott wächst, ~10 neue Satelliten täglich, ESA-Health-Index in einem Jahr ~10x schlechter (ESA-Weltraumumweltbericht 2026, via ÖAW 10.11.2026)",
+  "musik": {
+   "titel": "Travel Motivation",
+   "start": 79.3,
+   "stimmung": "filmisch, ernst",
+   "quelle": "Meta Sound Collection"
+  },
+  "stimmen_ab_zeile": 6
  }
 ]
