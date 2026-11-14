@@ -65,7 +65,7 @@ def slides(dm_png, h):
     S.append(f"""<div class="split"><div style="background:{LIGHT}"></div><div style="background:{DARK}"></div></div>
       <div class="ml sm" style="top:{off + 200}px;font-size:40px">Worauf du deine Aufmerksamkeit</div>
       <div class="ml sm" style="top:{off + 254}px;font-size:40px">richtest, entscheidest du.</div>
-      <div class="ml big" style="top:{off + 470}px;font-size:120px">Jeden Morgen</div>
+      <div class="ml big" style="top:{off + 470}px;font-size:120px">Jeden Tag</div>
       <div class="ml big" style="top:{off + 600}px;font-size:120px">eine neue Wahl.</div>
       <div class="ml big" style="top:{off + 860}px;font-size:76px">Folge @beidewahr</div>
       <div class="ml sm" style="top:{off + 990}px;font-size:36px">und schick's jemandem, der gern mitwählt.</div>{nr(5, LIGHT)}""")
