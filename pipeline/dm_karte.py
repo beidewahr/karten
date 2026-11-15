@@ -3,6 +3,9 @@
 Erzeugt dm_gut.png und dm_schlecht.png (1080x1350) aus pair.json.
 Oben: Foto über die ganze Breite (bild, bild_pos). KEIN Hinweis «Symbolbild» auf dem Bild (Entscheid Timo 12.11.2026).
 Darunter: Label, Schlagzeile, Text, Quelle, Wortmarke.
+Seit 15.11.2026 (Entwurf «mehr Mehrwert»): Gibt es in pair.json pro Nachricht `karte_headline` und `punkte`
+([["Das Wichtigste", "…"], ["Warum das zählt", "…"], ["Wie es weitergeht", "…"]]), zeigt die Karte die konkrete
+Schlagzeile und drei Abschnitte statt `text`. `headline` bleibt die (weniger konkrete) Vorschau für Reel und Story.
 Passt die Schriftgrösse automatisch an, falls der Text zu lang ist.
 Aufruf: python3 dm_karte.py pair.json out/
 """
@@ -11,7 +14,8 @@ from playwright.sync_api import sync_playwright
 
 DARK, LIGHT = "#15171E", "#F3EEE4"
 MUTED_D, MUTED_L = "#8C909B", "#6E685D"
-W, H, IMG_H = 1080, 1350, 440
+W, IMG_H = 1080, 440
+H = 1350
 
 
 def sun(size, color):
@@ -43,6 +47,8 @@ def img_uri(path):
 
 
 def card(p, kind, base_dir):
+    global H
+    H = 1500 if p[kind].get("punkte") else 1350  # mehr Platz für drei Abschnitte
     good = kind == "gut"
     bg, fg = (LIGHT, DARK) if good else (DARK, LIGHT)
     muted = MUTED_L if good else MUTED_D
@@ -72,12 +78,19 @@ def card(p, kind, base_dir):
     .tx{{margin-top:30px;font-size:var(--tx,37px);line-height:1.42;font-weight:450}}
     .foot{{margin-top:auto;padding-top:26px;display:flex;justify-content:space-between;align-items:flex-end;
       gap:40px;border-top:2px solid {muted}55}}
+    .pk{{margin-top:.75em}} .pk:first-child{{margin-top:0}}
+    .pt{{font-weight:700;font-size:.62em;letter-spacing:.14em;text-transform:uppercase;color:{muted};margin-bottom:.2em}}
     .src{{font-size:22px;line-height:1.4;color:{muted};max-width:640px}}
     .wm{{font-family:'Inter Display';font-weight:800;font-size:38px;letter-spacing:-1px;white-space:nowrap}}
     """
+    if d.get("punkte"):
+        inhalt = '<div class="tx" id="t">' + "".join(
+            f'<div class="pk"><div class="pt">{esc(t)}</div><div>{esc(x)}</div></div>' for t, x in d["punkte"]) + '</div>'
+    else:
+        inhalt = f'<div class="tx" id="t">{esc(d["text"])}</div>'
     body = f"""<div class="c"><div class="ph">{photo}</div><div class="fade"></div>
     <div class="body" id="b"><div class="row">{icon}{label}</div>
-    <div class="hl">{esc(d['headline'])}</div><div class="tx" id="t">{esc(d['text'])}</div>
+    <div class="hl">{esc(d.get('karte_headline', d['headline']))}</div>{inhalt}
     <div class="foot" id="f"><div class="src">Quelle: {esc(d['quelle'])}</div><div class="wm">beide wahr</div></div></div></div>"""
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
@@ -102,8 +115,9 @@ def main(pair_path, out_dir):
     with sync_playwright() as pw:
         b = pw.chromium.launch()
         for kind in ("gut", "schlecht"):
+            doc = card(p, kind, pair_path.parent)
             pg = b.new_page(viewport={"width": W, "height": H})
-            pg.set_content(card(p, kind, pair_path.parent)); pg.wait_for_timeout(200)
+            pg.set_content(doc); pg.wait_for_timeout(200)
             info = pg.evaluate(FIT_JS)
             pg.screenshot(path=str(out / f"dm_{kind}.png"))
             print(kind, info)
