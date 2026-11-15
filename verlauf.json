@@ -47,6 +47,22 @@
    "stimmung": "filmisch, ernst",
    "quelle": "Meta Sound Collection"
   },
-  "stimmen_ab_zeile": 6
+  "stimmen_ab_zeile": 6,
+  "stimmen": 2,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-15",
+  "bereich": "Gesellschaft & Alltag",
+  "thema": "Kinder im Strassenverkehr",
+  "gut": "Schwer/tödlich verunfallte Kinder bis 14 J. seit 1980 von über 1700 auf rund 10 % (BFU-Medienmitteilung Nov. 2026)",
+  "schlecht": "Rund 70 % der schwer/tödlich verunfallten Kinder zu Fuss oder mit dem Velo; 2025 154 Kinder schwer verletzt (BFU)",
+  "musik": {
+   "titel": "Lux",
+   "start": 81.01,
+   "stimmung": "ruhig, warm",
+   "quelle": "Meta Sound Collection"
+  },
+  "stimmen_ab_zeile": 10
  }
 ]
