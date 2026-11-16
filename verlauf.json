@@ -63,6 +63,22 @@
    "stimmung": "ruhig, warm",
    "quelle": "Meta Sound Collection"
   },
-  "stimmen_ab_zeile": 10
+  "stimmen_ab_zeile": 10,
+  "stimmen": 1,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-16",
+  "bereich": "Technik & Erfindungen",
+  "thema": "Plastikmüll",
+  "gut": "ETH Zürich: PE/PP-Plastikmüll in einem Schritt zu Hochleistungs-Klebstoff (JACS; ETH News 05.11.2026)",
+  "schlecht": "Satellitendaten 2002–2022: Meer beim Nordpazifik-Müllstrudel blau/grün heller, Mikroplastik >4x wahrscheinlicher als natürliche Ursachen (Uni Bergen, Commun. Earth Environ. 05.11.2026)",
+  "musik": {
+   "titel": "Mech Aria",
+   "start": 43.21,
+   "stimmung": "elektronisch, treibend",
+   "quelle": "Meta Sound Collection"
+  },
+  "stimmen_ab_zeile": 12
  }
 ]
