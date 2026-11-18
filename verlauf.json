@@ -1,100 +1,116 @@
 [
-  {
-    "datum": "2026-11-12",
-    "bereich": "Tiere",
-    "thema": "Meeresschildkröten",
-    "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)",
-    "schlecht": "Fast nur Weibchen in Florida (FAU)",
-    "reel": "https://www.instagram.com/reel/DfpdAQekvmt/",
-    "stimmen": 0,
-    "anteil_gut": null
+ {
+  "datum": "2026-11-12",
+  "bereich": "Tiere",
+  "thema": "Meeresschildkröten",
+  "gut": "Kemp's-Ridley-Nester Texas +55 % (USFWS/NPS)",
+  "schlecht": "Fast nur Weibchen in Florida (FAU)",
+  "reel": "https://www.instagram.com/reel/DfpdAQekvmt/",
+  "stimmen": 0,
+  "anteil_gut": null
+ },
+ {
+  "datum": "2026-11-13",
+  "bereich": "Natur & Umwelt",
+  "thema": "Schweizer Seen",
+  "gut": "Mehr Sauerstoff im Tiefenwasser dank Gewässerschutz (Eawag)",
+  "schlecht": "Seen an der Oberfläche ~2 Grad wärmer, weniger Durchmischung (Eawag)",
+  "stimmen_ab_zeile": 2,
+  "stimmen": 2,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-14",
+  "bereich": "Gesundheit & Medizin",
+  "thema": "Tuberkulose",
+  "gut": "WHO-Region Europa: Tuberkulose-Neuerkrankungen pro 100 000 seit 2015 −42 % (WHO-Tuberkulosebericht 2026)",
+  "schlecht": "Weltweit ~2,2 Mio. von 10,6 Mio. Tuberkulose-Fällen 2025 nicht diagnostiziert/gemeldet (WHO, via Spektrum.de)",
+  "musik": {
+   "stil": 3,
+   "name": "03_inspiration_klavier",
+   "transpose": 2,
+   "tempo": 0.967,
+   "seed": 20261114
   },
-  {
-    "datum": "2026-11-13",
-    "bereich": "Natur & Umwelt",
-    "thema": "Schweizer Seen",
-    "gut": "Mehr Sauerstoff im Tiefenwasser dank Gewässerschutz (Eawag)",
-    "schlecht": "Seen an der Oberfläche ~2 Grad wärmer, weniger Durchmischung (Eawag)",
-    "stimmen_ab_zeile": 2,
-    "stimmen": 2,
-    "anteil_gut": 100
+  "stimmen_ab_zeile": 5
+ },
+ {
+  "datum": "2026-11-14",
+  "lauf": "abend (Zusatzlauf, Probelauf Sound Collection)",
+  "bereich": "Wissenschaft & Weltraum",
+  "thema": "Weltraum",
+  "gut": "ESA Euclid DR1: über 900 Mio. Galaxien, Fläche 9500 Vollmonde, 14 % der geplanten Karte (ESA, 12.11.2026)",
+  "schlecht": "Weltraumschrott wächst, ~10 neue Satelliten täglich, ESA-Health-Index in einem Jahr ~10x schlechter (ESA-Weltraumumweltbericht 2026, via ÖAW 10.11.2026)",
+  "musik": {
+   "titel": "Travel Motivation",
+   "start": 79.3,
+   "stimmung": "filmisch, ernst",
+   "quelle": "Meta Sound Collection"
   },
-  {
-    "datum": "2026-11-14",
-    "bereich": "Gesundheit & Medizin",
-    "thema": "Tuberkulose",
-    "gut": "WHO-Region Europa: Tuberkulose-Neuerkrankungen pro 100 000 seit 2015 −42 % (WHO-Tuberkulosebericht 2026)",
-    "schlecht": "Weltweit ~2,2 Mio. von 10,6 Mio. Tuberkulose-Fällen 2025 nicht diagnostiziert/gemeldet (WHO, via Spektrum.de)",
-    "musik": {
-      "stil": 3,
-      "name": "03_inspiration_klavier",
-      "transpose": 2,
-      "tempo": 0.967,
-      "seed": 20261114
-    },
-    "stimmen_ab_zeile": 5
+  "stimmen_ab_zeile": 6,
+  "stimmen": 2,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-15",
+  "bereich": "Gesellschaft & Alltag",
+  "thema": "Kinder im Strassenverkehr",
+  "gut": "Schwer/tödlich verunfallte Kinder bis 14 J. seit 1980 von über 1700 auf rund 10 % (BFU-Medienmitteilung Nov. 2026)",
+  "schlecht": "Rund 70 % der schwer/tödlich verunfallten Kinder zu Fuss oder mit dem Velo; 2025 154 Kinder schwer verletzt (BFU)",
+  "musik": {
+   "titel": "Lux",
+   "start": 81.01,
+   "stimmung": "ruhig, warm",
+   "quelle": "Meta Sound Collection"
   },
-  {
-    "datum": "2026-11-14",
-    "lauf": "abend (Zusatzlauf, Probelauf Sound Collection)",
-    "bereich": "Wissenschaft & Weltraum",
-    "thema": "Weltraum",
-    "gut": "ESA Euclid DR1: über 900 Mio. Galaxien, Fläche 9500 Vollmonde, 14 % der geplanten Karte (ESA, 12.11.2026)",
-    "schlecht": "Weltraumschrott wächst, ~10 neue Satelliten täglich, ESA-Health-Index in einem Jahr ~10x schlechter (ESA-Weltraumumweltbericht 2026, via ÖAW 10.11.2026)",
-    "musik": {
-      "titel": "Travel Motivation",
-      "start": 79.3,
-      "stimmung": "filmisch, ernst",
-      "quelle": "Meta Sound Collection"
-    },
-    "stimmen_ab_zeile": 6,
-    "stimmen": 2,
-    "anteil_gut": 100
+  "stimmen_ab_zeile": 10,
+  "stimmen": 1,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-16",
+  "bereich": "Technik & Erfindungen",
+  "thema": "Plastikmüll",
+  "gut": "ETH Zürich: PE/PP-Plastikmüll in einem Schritt zu Hochleistungs-Klebstoff (JACS; ETH News 05.11.2026)",
+  "schlecht": "Satellitendaten 2002–2022: Meer beim Nordpazifik-Müllstrudel blau/grün heller, Mikroplastik >4x wahrscheinlicher als natürliche Ursachen (Uni Bergen, Commun. Earth Environ. 05.11.2026)",
+  "musik": {
+   "titel": "Mech Aria",
+   "start": 43.21,
+   "stimmung": "elektronisch, treibend",
+   "quelle": "Meta Sound Collection"
   },
-  {
-    "datum": "2026-11-15",
-    "bereich": "Gesellschaft & Alltag",
-    "thema": "Kinder im Strassenverkehr",
-    "gut": "Schwer/tödlich verunfallte Kinder bis 14 J. seit 1980 von über 1700 auf rund 10 % (BFU-Medienmitteilung Nov. 2026)",
-    "schlecht": "Rund 70 % der schwer/tödlich verunfallten Kinder zu Fuss oder mit dem Velo; 2025 154 Kinder schwer verletzt (BFU)",
-    "musik": {
-      "titel": "Lux",
-      "start": 81.01,
-      "stimmung": "ruhig, warm",
-      "quelle": "Meta Sound Collection"
-    },
-    "stimmen_ab_zeile": 10,
-    "stimmen": 1,
-    "anteil_gut": 100
+  "stimmen_ab_zeile": 12,
+  "stimmen": 2,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-17",
+  "bereich": "Gesundheit & Medizin",
+  "thema": "Antibiotika",
+  "gut": "Tiermedizin CH: Verkauf kritischer Antibiotika 2015–2025 −89 % (Swiss Antibiotic Resistance Report 2026, BAG/BLV 17.11.2026)",
+  "schlecht": "Humanmedizin CH: E.-coli-Resistenzen gegen bestimmte Breitband-Antibiotika und CRE nehmen zu (SARR 2026, BAG 17.11.2026)",
+  "musik": {
+   "titel": "Wildflower (Instrumental)",
+   "start": 125.83,
+   "stimmung": "sanft, hell",
+   "quelle": "Meta Sound Collection"
   },
-  {
-    "datum": "2026-11-16",
-    "bereich": "Technik & Erfindungen",
-    "thema": "Plastikmüll",
-    "gut": "ETH Zürich: PE/PP-Plastikmüll in einem Schritt zu Hochleistungs-Klebstoff (JACS; ETH News 05.11.2026)",
-    "schlecht": "Satellitendaten 2002–2022: Meer beim Nordpazifik-Müllstrudel blau/grün heller, Mikroplastik >4x wahrscheinlicher als natürliche Ursachen (Uni Bergen, Commun. Earth Environ. 05.11.2026)",
-    "musik": {
-      "titel": "Mech Aria",
-      "start": 43.21,
-      "stimmung": "elektronisch, treibend",
-      "quelle": "Meta Sound Collection"
-    },
-    "stimmen_ab_zeile": 12,
-    "stimmen": 2,
-    "anteil_gut": 100
+  "stimmen_ab_zeile": 15,
+  "stimmen": 1,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-18",
+  "bereich": "Tiere",
+  "thema": "Inselvögel",
+  "gut": "Humboldt-Lummensturmvogel Isla Choros (Chile): ~89 900 Brutpaare 2024, ~300 1980, 11 934 2013; Kaninchen 2013 entfernt (Marine Ornithology, UCN/Uni Kiel; via Rare Bird Alert 04.11.2026)",
+  "schlecht": "Akikiki (Kauaʻi) in freier Natur verschwunden, letzte Sichtung Aug. 2025, Vogelmalaria (Hawaii DLNR 17.11.2026, Ornithological Applications; via Spektrum.de)",
+  "musik": {
+   "titel": "Breezy Epic",
+   "start": 109.32,
+   "stimmung": "hell & aufbauend",
+   "quelle": "Meta Sound Collection"
   },
-  {
-    "datum": "2026-11-17",
-    "bereich": "Gesundheit & Medizin",
-    "thema": "Antibiotika",
-    "gut": "Tiermedizin CH: Verkauf kritischer Antibiotika 2015–2025 −89 % (Swiss Antibiotic Resistance Report 2026, BAG/BLV 17.11.2026)",
-    "schlecht": "Humanmedizin CH: E.-coli-Resistenzen gegen bestimmte Breitband-Antibiotika und CRE nehmen zu (SARR 2026, BAG 17.11.2026)",
-    "musik": {
-      "titel": "Wildflower (Instrumental)",
-      "start": 125.83,
-      "stimmung": "sanft, hell",
-      "quelle": "Meta Sound Collection"
-    },
-    "stimmen_ab_zeile": 15
-  }
+  "stimmen_ab_zeile": 17
+ }
 ]
