@@ -111,6 +111,22 @@
    "stimmung": "hell & aufbauend",
    "quelle": "Meta Sound Collection"
   },
-  "stimmen_ab_zeile": 17
+  "stimmen_ab_zeile": 17,
+  "stimmen": 1,
+  "anteil_gut": 100
+ },
+ {
+  "datum": "2026-11-19",
+  "bereich": "Natur & Umwelt",
+  "thema": "CO₂-Speicher",
+  "gut": "Meere nahmen 1990–2019 rund 35 % der fossilen CO₂-Emissionen auf, Senke wächst pro Jahrzehnt (Scripps/MPI-BGC, Science 12.11.2026)",
+  "schlecht": "Netto-CO₂-Senke an Land seit 1990 ohne Zunahme, seit ca. 2009 rückläufig (Scripps/MPI-BGC, Science 12.11.2026)",
+  "musik": {
+   "titel": "At World's End",
+   "start": 154.92,
+   "stimmung": "filmisch",
+   "quelle": "Meta Sound Collection"
+  },
+  "stimmen_ab_zeile": 18
  }
 ]
